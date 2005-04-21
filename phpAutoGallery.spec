@@ -19,11 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_sysconfdir	/etc/%{name}
 
 %description
-phpAutoGallery is a auto indexing picture gallery written in php and
+phpAutoGallery is a auto indexing picture gallery written in PHP and
 with the help of mod_rewrite.
 
 Current Features:
-
 - Application fully transparent to gallery-enduser
 - On-the-fly creation and caching of thumbnails, resized fullsize
   images, directory listings
@@ -36,6 +35,22 @@ Current Features:
 - Fully customizable through the use of Smarty templates.
 - Generates valid XHTML 1.0 Strict and CSS 2.0 code
 
+%description -l pl
+phpAutoGallery to galeria z automatycznym indeksowaniem zdjêæ napisana
+w PHP z pomoc± mod_rewrite.
+
+Aktualne mo¿liwo¶ci:
+- aplikacja w pe³ni przezroczysta dla u¿ytkownika galerii
+- tworzenie w locie i buforowanie miniaturek, przeskalowanych zdjêæ
+  pe³nego rozmoaru i listingów katalogów
+- konfigurowalne rozmiary widoków dla zdjêæ pe³nego rozmiaru
+- nak³adanie w locie informacji o prawach autorskich i logo
+- wy¶wietlanie informacji o plikach zdjêæ i katalogach
+- opisy dla folderów i zdjêæ
+- interfejs administratora
+- ³atwa konfiguracja
+- w pe³ni dostosowywalne poprzez u¿ycie szablonów Smarty
+- generuje poprawny kod XHTML 1.0 Strict z CSS 2.0.
 
 %prep
 %setup -q
