@@ -1,3 +1,5 @@
+# TODO
+# - webapps
 Summary:	Image gallery system created in PHP
 Summary(pl):	System galeriowy oparty na PHP
 Name:		phpAutoGallery
@@ -10,8 +12,8 @@ Source0:	http://dl.sourceforge.net/phpautogallery/%{name}-%{version}.tar.gz
 Source1:	%{name}.conf
 URL:		http://phpautogallery.sourceforge.net/
 Requires:	ImageMagick
-Requires:	php
 Requires:	webserver
+Requires:	webserver(php)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
