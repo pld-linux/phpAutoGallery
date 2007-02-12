@@ -1,7 +1,7 @@
 # TODO
 # - webapps
 Summary:	Image gallery system created in PHP
-Summary(pl):	System galeriowy oparty na PHP
+Summary(pl.UTF-8):   System galeriowy oparty na PHP
 Name:		phpAutoGallery
 Version:	0.9.6
 Release:	0.1
@@ -37,21 +37,21 @@ Current Features:
 - Fully customizable through the use of Smarty templates.
 - Generates valid XHTML 1.0 Strict and CSS 2.0 code
 
-%description -l pl
-phpAutoGallery to galeria z automatycznym indeksowaniem zdjêæ napisana
-w PHP z pomoc± mod_rewrite.
+%description -l pl.UTF-8
+phpAutoGallery to galeria z automatycznym indeksowaniem zdjÄ™Ä‡ napisana
+w PHP z pomocÄ… mod_rewrite.
 
-Aktualne mo¿liwo¶ci:
-- aplikacja w pe³ni przezroczysta dla u¿ytkownika galerii
-- tworzenie w locie i buforowanie miniaturek, przeskalowanych zdjêæ
-  pe³nego rozmoaru i listingów katalogów
-- konfigurowalne rozmiary widoków dla zdjêæ pe³nego rozmiaru
-- nak³adanie w locie informacji o prawach autorskich i logo
-- wy¶wietlanie informacji o plikach zdjêæ i katalogach
-- opisy dla folderów i zdjêæ
+Aktualne moÅ¼liwoÅ›ci:
+- aplikacja w peÅ‚ni przezroczysta dla uÅ¼ytkownika galerii
+- tworzenie w locie i buforowanie miniaturek, przeskalowanych zdjÄ™Ä‡
+  peÅ‚nego rozmoaru i listingÃ³w katalogÃ³w
+- konfigurowalne rozmiary widokÃ³w dla zdjÄ™Ä‡ peÅ‚nego rozmiaru
+- nakÅ‚adanie w locie informacji o prawach autorskich i logo
+- wyÅ›wietlanie informacji o plikach zdjÄ™Ä‡ i katalogach
+- opisy dla folderÃ³w i zdjÄ™Ä‡
 - interfejs administratora
-- ³atwa konfiguracja
-- w pe³ni dostosowywalne poprzez u¿ycie szablonów Smarty
+- Å‚atwa konfiguracja
+- w peÅ‚ni dostosowywalne poprzez uÅ¼ycie szablonÃ³w Smarty
 - generuje poprawny kod XHTML 1.0 Strict z CSS 2.0.
 
 %prep
