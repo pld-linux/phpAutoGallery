@@ -1,7 +1,7 @@
 # TODO
 # - webapps
 Summary:	Image gallery system created in PHP
-Summary(pl.UTF-8):   System galeriowy oparty na PHP
+Summary(pl.UTF-8):	System galeriowy oparty na PHP
 Name:		phpAutoGallery
 Version:	0.9.6
 Release:	0.1
